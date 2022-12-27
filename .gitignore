@@ -1,0 +1,17 @@
+/.venv
+__pycache__/
+frontend/lib
+/test
+/frontend2
+/base
+usr.json
+user.json
+/OUTPUT
+/App
+keys.json
+compiler-config.json
+/connection
+/icon
+/img
+icon/
+img/

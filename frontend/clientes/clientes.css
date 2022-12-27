@@ -1,0 +1,12 @@
+.tabla-container{
+    padding: 5%;
+}
+.btn{
+    margin-top: 6%;
+}
+.check-update{
+    margin-top: 6%;;
+}
+
+#clientes-datatable th { font-size: 11px; }
+#clientes-datatable td { font-size: 11px; }

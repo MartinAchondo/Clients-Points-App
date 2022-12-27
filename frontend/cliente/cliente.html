@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div class="cont-total">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="ingresar-titulo">Historial Cliente</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <form class="needs-validation" id ="form-verificar-cliente" autocomplete="off">
+                <div class="form-row">
+                    <div class="col">
+                        <label class="form-label"><h6>Ingresar RUT</h6> (sin puntos ni código verificador)</label>
+                    </div>
+                    <div class="col">
+                        <div class="">
+                            <input type="number" id="input-verificar-cliente-rut" class="verificar-input form-control" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <button id="verificar-mandar" type="submit" class="btn btn-outline-primary">Verificar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+        <div class="row container-info">
+            <div class="col-5">
+                <div class="row">
+                    <h6>Información</h6>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Rut: </label>
+                    </div>
+                    <div class="col-8">
+                        <label id="analisis-rut"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Nombre: </label>
+                    </div>
+                    <div class="col-8">
+                        <label id="analisis-nombre"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Número: </label>
+                    </div>
+                    <div class="col-8">
+                        <label id="analisis-numero"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Mail: </label>
+                    </div>
+                    <div class="col-8">
+                        <label id="analisis-mail"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Puntos: </label>
+                    </div>
+                    <div class="col-8">
+                        <label id="analisis-puntos"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Fecha Creación:</label>
+                    </div>
+                    <div class="col-8">
+                        <label id="analisis-fecha"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7">
+            </div>
+            </div>
+            <hr>
+        <div class="row">
+            <div class="col">
+                <h4>Cartola: </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="tabla-container">
+                    <table id="analisis-datatable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+                          <thead>
+                            <tr>
+                                <th class="th-sm">Id</th>
+                                <th class="th-sm">Tipo</th>
+                                <th class="th-sm">Fecha</th>
+                                <th class="th-sm">Monto</th>
+                                <th class="th-sm">Saldo</th>
+                            </tr>
+                          </thead>
+                        </table>
+                      </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h4>Vencimientos: </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="tabla-container">
+                    <table id="venc-datatable" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+                          <thead>
+                            <tr>
+                                <th class="th-sm">Puntos</th>
+                                <th class="th-sm">Fecha Vencimiento</th>
+                            </tr>
+                          </thead>
+                        </table>
+                      </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

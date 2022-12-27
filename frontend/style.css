@@ -1,0 +1,15 @@
+body .izqbar {
+  background-color: lightblue;
+}
+
+.cont-total-inicio {
+  margin: 5%;
+}
+
+.foto-bijit img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 5%;
+}

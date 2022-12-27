@@ -1,0 +1,13 @@
+.tabla-container{
+    padding: 5%;
+}
+
+.btn{
+    margin-top: 6%;
+}
+.check-update{
+    margin-top: 6%;;
+}
+
+#registros-datatable th { font-size: 11px; }
+#registros-datatable td { font-size: 11px; }

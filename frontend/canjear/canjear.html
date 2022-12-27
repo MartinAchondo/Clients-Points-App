@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="cont-total">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Canjear Puntos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <form class="needs-validation" id ="form-verificar-cliente" autocomplete="off">
+                    <div class="form-row">
+                        <div class="col">
+                            <label class="form-label"><h6>Ingresar RUT</h6> (sin puntos ni código verificador)</label>
+                        </div>
+                        <div class="col">
+                            <div class="">
+                                <input type="number" id="input-verificar-cliente-rut" class="verificar-input form-control" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                                <button id="verificar-mandar" type="submit" class="btn btn-outline-primary">Verificar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row fila2" >
+                <form class="needs-validation" id ="form-canjear-cliente" autocomplete="off">
+                    <div class="form-row">
+                        <div class="col">
+                            <label class="form-label"><h6>Rut a Canjear:</h6></label>
+                        </div>
+                        <div class="col">
+                            <label class="form-label"  id="label-canjear"></label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label class="form-label"><h6>Puntos a la fecha:</h6></label>
+                        </div>
+                        <div class="col">
+                            <label class="form-label"  id="label-canjear-puntos"></label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label class="form-label" ><h6>Ingresar Total a Canjear</h6> (sin puntos)</label>
+                        </div>
+                        <div class="col">
+                            <div class="">
+                                <input type="number" id="input-canjear-cliente-rut" class="canjear-input form-control" required>
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="form-row">
+                        <div class="col-12">
+                            <button id="canjear-mandar" type="submit" class="btn btn-primary">Canjear Puntos</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="cont-total">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Crear Cliente en Sistema de Puntos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <form class="needs-validation" id ="form-crear-cliente" autocomplete="off">
+                    <div class="form-row">
+                        <div class="col">
+                            <label class="form-label"><h6>Ingresar RUT</h6> (sin puntos ni código verificador)</label>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="input-crear-cliente-rut" class="crear-input form-control" minlength="8" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" value="True" id="check-ref" name="flexRadio" required>
+                                <label class="form-check-label" for="check-ref">
+                                  Tiene referido
+                                </label>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" value="False" id="check-sin" name="flexRadio" required>
+                                <label class="form-check-label" for="check-sin">
+                                  Sin referido
+                                </label>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label class="form-label"><h6>Ingresar RUT Referido: </h6> (sin puntos ni código verificador)</label>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="input-crear-cliente-rut2" class="crear-input form-control" minlength="8">
+                        </div>
+                        <div class="col">
+                            <button id="crear-verificar" type="button" class="btn btn-outline-primary">Verificar</button>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <button id="crear-mandar" type="submit" class="btn btn-primary ">Crear Cliente</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>

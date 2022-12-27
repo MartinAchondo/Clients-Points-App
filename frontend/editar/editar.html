@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="cont-total">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Editar Cliente en Sistema de Puntos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <form class="needs-validation" id ="form-editar-cliente" autocomplete="off">
+                    <div class="form-row">
+                        <div class="col">
+                            <label class="form-label"><h6>Ingresar Clave Administrador</h6></label>
+                        </div>
+                        <div class="col">
+                            <input type="password" id="input-clave" class="crear-input form-control" required>
+                        </div>
+                        <div class="col">
+                            <button id="editar-clave" type="button" class="btn btn-outline-primary">Iniciar</button>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label class="form-label"><h6>Ingresar RUT: </h6> (sin puntos ni código verificador)</label>
+                        </div>
+                        <div class="col">
+                            <input type="number" id="input-editar-cliente-rut2" class="crear-input form-control" required>
+                        </div>
+                        <div class="col">
+                            <button id="editar-verificar" type="button" class="btn btn-outline-primary">Verificar</button>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <label class="form-label"><h6>Ingresar Puntos: </h6> </label>
+                        </div>
+                        <div class="col">
+                            <input type="number" id="input-puntos" class="editar-input-puntos form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <button id="editar-mandar" type="submit" class="btn btn-primary">Editar Cliente</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>
